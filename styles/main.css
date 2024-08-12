@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    max-width: 1370px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    min-height: 895px;
+    background-image: url(../img/BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 175px;
+}
+.header h1 {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+    color: #01996D;
+    max-width: 440px;
+    margin-top: 0px;
+}
+.header p {
+    max-width: 420px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: #484848;
+}
+
+.header button {
+    margin-top: 18px;
+    width: 227px;
+    height: 65px;
+    border-radius: 4px;
+    background: #01996D;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    color: #FFFF;
+    border: none;
+    cursor: pointer;
+}
+/* подвал сайта */
+.footer {
+    background: #245852;
+    padding: 88px 175px;
+}
+
+.container img {
+    width: 108px;
+    height: 55px;
+}
+
+footer .logo {
+    margin-bottom: 50px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+footer ul li {
+    margin-bottom: 50px;
+}
+
+footer ul li:last-child {
+    margin-bottom: 0px;
+}
