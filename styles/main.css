@@ -55,6 +55,103 @@ body {
     border: none;
     cursor: pointer;
 }
+/* Блок первый */
+.main {
+    margin-top: 155px;
+    margin-left: 175px;
+    justify-content: center;
+    max-width: 1139px;
+    min-height: 1286px;
+    border: solid 1px black;
+}
+
+.main h2 {
+    width: 584px;
+    height: 158;
+    color: #01996D;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Georgia", serif;
+}
+
+.text-p {
+    padding: 2px;
+    margin-top: -155px;
+    width: 514px;
+    height: 269px;
+    margin-left: 602px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+}
+/* второй блок*/
+.block-1 {
+    border: solid 1px black;
+}
+.block-2-p {
+    margin-top: -200px;
+    font-size: 150px;
+    font-family: Georgia, serif;
+    color: #01996D;
+    opacity: 0.2;
+}
+
+.block {
+    margin-top: -204px;
+    margin-left: 88px;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+.block-text {
+    color: #424242;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;;
+    width: 382px;
+    height: 150px;
+}
+
+.block-img {
+    width: 390px;
+    height: 492px;
+    background-image: url(../img/Rectangle.png);
+}
+
+.block-img-2 {
+    width: 185px;
+    height: 144px;
+    background-image: url(../img/Group.png);
+    background-repeat: no-repeat;
+    margin-left: 205px;
+    margin-top: -266px;
+}
+/* третий блок */
+.block-3 {
+    border: solid 1px black;
+    width: 392px;
+    height: 854px;
+    margin-left: 270px;
+}
+.block-3-p {
+    border: solid 1px black;
+    width: 392px;
+    height: 854px;
+    margin-top: -660px;
+    margin-left: 450px;
+    font-size: 150px;
+    font-family: Georgia, serif;
+    color: #01996D;
+    opacity: 0.2;
+}
+/* блок четвертый */
+.block-4-p {
+    width: 441px;
+    height: 856px;
+    border: solid 1px black;
+    margin-top: -660px;
+    margin-left: 850px;
+}
 /* подвал сайта */
 .footer {
     background: #245852;
